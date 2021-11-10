@@ -12,5 +12,7 @@ Many things to do still:
 * Determine how to make background slide  
 * Add counter for successful jumps  
 * Add collision between player and object  
-    - Game over 
+    - Game over  
+* Think about Game/RenderWindow interaction  
+    - Currently RenderWindow is responsible for rednering a SDL_Texture, but it might be nice to have something like a TextureManager that the game would hold onto
 * And much more!
