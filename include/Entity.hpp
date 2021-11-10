@@ -24,6 +24,15 @@ public:
         return pos;
     }
 
+    void updatePosX(const float xNew)
+    {
+        this->pos.x = xNew;
+    }
+    void updatePosY(const float yNew)
+    {
+        this->pos.y = yNew;
+    }
+
     SDL_Texture* getTexture()
     {
         return texture;

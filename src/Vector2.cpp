@@ -29,10 +29,10 @@ Vector2 operator-(const Vector2& vec1, const Vector2& vec2)
 
 Vector2 operator*(const Vector2& vec, const float scale)
 {
-    return Vector2(scale * vec.x, scale * vec1.y);
+    return Vector2(scale * vec.x, scale * vec.y);
 }
 
 Vector2 operator/(const Vector2& vec, const float scale)
 {
-    return Vector2(scale / vec.x, scale / vec1.y);
+    return Vector2(scale / vec.x, scale / vec.y);
 }
